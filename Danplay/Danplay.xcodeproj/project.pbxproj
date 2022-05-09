@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		8EFAFCE62828C1C70090EAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFCE52828C1C70090EAB4 /* AppDelegate.swift */; };
 		8EFAFCE82828C1C70090EAB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFCE72828C1C70090EAB4 /* SceneDelegate.swift */; };
-		8EFAFCEA2828C1C70090EAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFCE92828C1C70090EAB4 /* ViewController.swift */; };
 		8EFAFCED2828C1C70090EAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCEB2828C1C70090EAB4 /* Main.storyboard */; };
 		8EFAFCEF2828C1C80090EAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */; };
 		8EFAFCF22828C1C80090EAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCF02828C1C80090EAB4 /* LaunchScreen.storyboard */; };
+		8EFAFD2A2828F70E0090EAB4 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD292828F70E0090EAB4 /* AuthModel.swift */; };
+		8EFAFD2E2828F71C0090EAB4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD2D2828F71C0090EAB4 /* Login.storyboard */; };
+		8EFAFD302828F7290090EAB4 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD2F2828F7290090EAB4 /* SignUp.storyboard */; };
+		8EFAFD32282916540090EAB4 /* AuthComplete.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD31282916540090EAB4 /* AuthComplete.storyboard */; };
+		8EFAFD3428291C380090EAB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3328291C380090EAB4 /* LoginViewController.swift */; };
+		8EFAFD3628291C540090EAB4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */; };
+		8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */; };
+		8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3928291CF70090EAB4 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EFAFCE22828C1C70090EAB4 /* Danplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFAFCE52828C1C70090EAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFAFCE72828C1C70090EAB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8EFAFCE92828C1C70090EAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EFAFCEC2828C1C70090EAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFAFCF12828C1C80090EAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFAFCF32828C1C80090EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFAFD292828F70E0090EAB4 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		8EFAFD2D2828F71C0090EAB4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8EFAFD2F2828F7290090EAB4 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		8EFAFD31282916540090EAB4 /* AuthComplete.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthComplete.storyboard; sourceTree = "<group>"; };
+		8EFAFD3328291C380090EAB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCompleteViewController.swift; sourceTree = "<group>"; };
+		8EFAFD3928291CF70090EAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,150 @@
 		8EFAFCE42828C1C70090EAB4 /* Danplay */ = {
 			isa = PBXGroup;
 			children = (
-				8EFAFCE52828C1C70090EAB4 /* AppDelegate.swift */,
-				8EFAFCE72828C1C70090EAB4 /* SceneDelegate.swift */,
-				8EFAFCE92828C1C70090EAB4 /* ViewController.swift */,
-				8EFAFCEB2828C1C70090EAB4 /* Main.storyboard */,
-				8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */,
-				8EFAFCF02828C1C80090EAB4 /* LaunchScreen.storyboard */,
+				8EFAFD192828F4900090EAB4 /* Global */,
+				8EFAFD1A2828F4970090EAB4 /* Source */,
+				8EFAFD1B2828F4A10090EAB4 /* Resource */,
 				8EFAFCF32828C1C80090EAB4 /* Info.plist */,
 			);
 			path = Danplay;
+			sourceTree = "<group>";
+		};
+		8EFAFD192828F4900090EAB4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD1C2828F4B60090EAB4 /* Extenstion */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8EFAFD1A2828F4970090EAB4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD1D2828F4D20090EAB4 /* Screen */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8EFAFD1B2828F4A10090EAB4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD282828F5320090EAB4 /* Asset */,
+				8EFAFD272828F5250090EAB4 /* Storyboard */,
+				8EFAFD262828F51F0090EAB4 /* Support */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8EFAFD1C2828F4B60090EAB4 /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		8EFAFD1D2828F4D20090EAB4 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD1F2828F4EF0090EAB4 /* Auth */,
+				8EFAFD1E2828F4E10090EAB4 /* TabBar */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		8EFAFD1E2828F4E10090EAB4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD252828F50D0090EAB4 /* Model */,
+				8EFAFD242828F5090090EAB4 /* View */,
+				8EFAFD232828F5050090EAB4 /* Controller */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8EFAFD1F2828F4EF0090EAB4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD222828F5010090EAB4 /* Model */,
+				8EFAFD212828F4FE0090EAB4 /* View */,
+				8EFAFD202828F4FA0090EAB4 /* Controller */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8EFAFD202828F4FA0090EAB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD3328291C380090EAB4 /* LoginViewController.swift */,
+				8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */,
+				8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EFAFD212828F4FE0090EAB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD2D2828F71C0090EAB4 /* Login.storyboard */,
+				8EFAFD2F2828F7290090EAB4 /* SignUp.storyboard */,
+				8EFAFD31282916540090EAB4 /* AuthComplete.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EFAFD222828F5010090EAB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD292828F70E0090EAB4 /* AuthModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EFAFD232828F5050090EAB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EFAFD242828F5090090EAB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EFAFD252828F50D0090EAB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EFAFD262828F51F0090EAB4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFCE52828C1C70090EAB4 /* AppDelegate.swift */,
+				8EFAFCE72828C1C70090EAB4 /* SceneDelegate.swift */,
+				8EFAFD3928291CF70090EAB4 /* ViewController.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		8EFAFD272828F5250090EAB4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFCEB2828C1C70090EAB4 /* Main.storyboard */,
+				8EFAFCF02828C1C80090EAB4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8EFAFD282828F5320090EAB4 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */,
+			);
+			path = Asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +274,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFAFD2E2828F71C0090EAB4 /* Login.storyboard in Resources */,
 				8EFAFCF22828C1C80090EAB4 /* LaunchScreen.storyboard in Resources */,
 				8EFAFCEF2828C1C80090EAB4 /* Assets.xcassets in Resources */,
+				8EFAFD32282916540090EAB4 /* AuthComplete.storyboard in Resources */,
 				8EFAFCED2828C1C70090EAB4 /* Main.storyboard in Resources */,
+				8EFAFD302828F7290090EAB4 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFAFCEA2828C1C70090EAB4 /* ViewController.swift in Sources */,
+				8EFAFD3628291C540090EAB4 /* SignUpViewController.swift in Sources */,
+				8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */,
+				8EFAFD2A2828F70E0090EAB4 /* AuthModel.swift in Sources */,
 				8EFAFCE62828C1C70090EAB4 /* AppDelegate.swift in Sources */,
+				8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */,
+				8EFAFD3428291C380090EAB4 /* LoginViewController.swift in Sources */,
 				8EFAFCE82828C1C70090EAB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
