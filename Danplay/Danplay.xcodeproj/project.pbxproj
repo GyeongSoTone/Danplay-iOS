@@ -20,6 +20,8 @@
 		8EFAFD3628291C540090EAB4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */; };
 		8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */; };
 		8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3928291CF70090EAB4 /* ViewController.swift */; };
+		8EFAFD45282A26980090EAB4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD44282A26980090EAB4 /* Colors.xcassets */; };
+		8EFAFD47282A276E0090EAB4 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD46282A276E0090EAB4 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCompleteViewController.swift; sourceTree = "<group>"; };
 		8EFAFD3928291CF70090EAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EFAFD44282A26980090EAB4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8EFAFD46282A276E0090EAB4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "Danplay/Resource/Asset/UIColor+.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		8EFAFD1C2828F4B60090EAB4 /* Extenstion */ = {
 			isa = PBXGroup;
 			children = (
+				8EFAFD46282A276E0090EAB4 /* UIColor+.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */,
+				8EFAFD44282A26980090EAB4 /* Colors.xcassets */,
 			);
 			path = Asset;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 				8EFAFD32282916540090EAB4 /* AuthComplete.storyboard in Resources */,
 				8EFAFCED2828C1C70090EAB4 /* Main.storyboard in Resources */,
 				8EFAFD302828F7290090EAB4 /* SignUp.storyboard in Resources */,
+				8EFAFD45282A26980090EAB4 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFAFD3628291C540090EAB4 /* SignUpViewController.swift in Sources */,
+				8EFAFD47282A276E0090EAB4 /* UIColor+.swift in Sources */,
 				8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */,
 				8EFAFD2A2828F70E0090EAB4 /* AuthModel.swift in Sources */,
 				8EFAFCE62828C1C70090EAB4 /* AppDelegate.swift in Sources */,
