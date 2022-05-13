@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     // MARK: - Life Cycle Part
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        backButtonCustom()
     }
     
     // MARK: - IBAction Part
@@ -27,6 +27,14 @@ class LoginViewController: UIViewController {
 
     }
     @IBAction func loginBtnDidTap(_ sender: Any) {
+        
+    }
+    
+    @IBAction func signupBtnDidTap(_ sender: Any) {
+        
+        guard let signupVC = UIStoryboard(name: "SignUp", bundle: nil).instantiateViewController(withIdentifier: SignUpViewController.className) as? SignUpViewController else { return }
+        
+        self.navigationController?.pushViewController(signupVC, animated: true)
     }
     
 }

@@ -7,23 +7,22 @@
 
 import UIKit
 
-class UIViewController_: UIViewController {
+extension UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    static var className: String {
+        NSStringFromClass(self.classForCoder()).components(separatedBy: ".").last!
+    }
 
-        // Do any additional setup after loading the view.
+    var className: String {
+        NSStringFromClass(self.classForCoder).components(separatedBy: ".").last!
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    // 네비게이션바 Left Back Button Custom
+    func backButtonCustom() {
+        let backBtnIcon = UIImage(named: "icn_back")
+        self.navigationController?.navigationBar.backIndicatorImage = backBtnIcon
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backBtnIcon
+        self.navigationItem.backButtonTitle = ""
     }
-    */
-
 }
