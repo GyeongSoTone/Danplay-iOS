@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EB8FA34282CF51A00B3BCEC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA31282CF51A00B3BCEC /* Comfortaa-Light.ttf */; };
+		8EB8FA35282CF51A00B3BCEC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA32282CF51A00B3BCEC /* Comfortaa-Bold.ttf */; };
+		8EB8FA36282CF51A00B3BCEC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA33282CF51A00B3BCEC /* Comfortaa-Regular.ttf */; };
 		8EFAFCE62828C1C70090EAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFCE52828C1C70090EAB4 /* AppDelegate.swift */; };
 		8EFAFCE82828C1C70090EAB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFCE72828C1C70090EAB4 /* SceneDelegate.swift */; };
 		8EFAFCED2828C1C70090EAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCEB2828C1C70090EAB4 /* Main.storyboard */; };
@@ -22,9 +25,13 @@
 		8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3928291CF70090EAB4 /* ViewController.swift */; };
 		8EFAFD45282A26980090EAB4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD44282A26980090EAB4 /* Colors.xcassets */; };
 		8EFAFD47282A276E0090EAB4 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD46282A276E0090EAB4 /* UIColor+.swift */; };
+		8EFAFD49282A5EEA0090EAB4 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EB8FA31282CF51A00B3BCEC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		8EB8FA32282CF51A00B3BCEC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		8EB8FA33282CF51A00B3BCEC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
 		8EFAFCE22828C1C70090EAB4 /* Danplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFAFCE52828C1C70090EAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFAFCE72828C1C70090EAB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +49,7 @@
 		8EFAFD3928291CF70090EAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EFAFD44282A26980090EAB4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8EFAFD46282A276E0090EAB4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "Danplay/Resource/Asset/UIColor+.swift"; sourceTree = SOURCE_ROOT; };
+		8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "Danplay/Resource/Asset/UIViewController+.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EB8FA30282CF50C00B3BCEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8FA32282CF51A00B3BCEC /* Comfortaa-Bold.ttf */,
+				8EB8FA31282CF51A00B3BCEC /* Comfortaa-Light.ttf */,
+				8EB8FA33282CF51A00B3BCEC /* Comfortaa-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		8EFAFCD92828C1C70090EAB4 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				8EFAFD46282A276E0090EAB4 /* UIColor+.swift */,
+				8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -216,6 +235,7 @@
 		8EFAFD282828F5320090EAB4 /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				8EB8FA30282CF50C00B3BCEC /* Fonts */,
 				8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */,
 				8EFAFD44282A26980090EAB4 /* Colors.xcassets */,
 			);
@@ -280,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB8FA34282CF51A00B3BCEC /* Comfortaa-Light.ttf in Resources */,
 				8EFAFD2E2828F71C0090EAB4 /* Login.storyboard in Resources */,
 				8EFAFCF22828C1C80090EAB4 /* LaunchScreen.storyboard in Resources */,
 				8EFAFCEF2828C1C80090EAB4 /* Assets.xcassets in Resources */,
@@ -287,6 +308,8 @@
 				8EFAFCED2828C1C70090EAB4 /* Main.storyboard in Resources */,
 				8EFAFD302828F7290090EAB4 /* SignUp.storyboard in Resources */,
 				8EFAFD45282A26980090EAB4 /* Colors.xcassets in Resources */,
+				8EB8FA36282CF51A00B3BCEC /* Comfortaa-Regular.ttf in Resources */,
+				8EB8FA35282CF51A00B3BCEC /* Comfortaa-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +325,7 @@
 				8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */,
 				8EFAFD2A2828F70E0090EAB4 /* AuthModel.swift in Sources */,
 				8EFAFCE62828C1C70090EAB4 /* AppDelegate.swift in Sources */,
+				8EFAFD49282A5EEA0090EAB4 /* UIViewController+.swift in Sources */,
 				8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */,
 				8EFAFD3428291C380090EAB4 /* LoginViewController.swift in Sources */,
 				8EFAFCE82828C1C70090EAB4 /* SceneDelegate.swift in Sources */,
