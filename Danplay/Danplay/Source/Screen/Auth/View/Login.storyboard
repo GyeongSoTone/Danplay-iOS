@@ -9,11 +9,6 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Comfortaa-Bold.ttf">
-            <string>Comfortaa-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="T94-4R-ypc">
@@ -40,13 +35,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="xkA-jo-N7R">
-                                <rect key="frame" x="23" y="308" width="329" height="98.333333333333314"/>
+                                <rect key="frame" x="23" y="308" width="329" height="108"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디 또는 이메일" textAlignment="natural" minimumFontSize="12" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="e5O-Dt-daG">
-                                        <rect key="frame" x="0.0" y="0.0" width="329" height="42.333333333333336"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="단국대학교 이메일" textAlignment="natural" minimumFontSize="12" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="e5O-Dt-daG">
+                                        <rect key="frame" x="0.0" y="0.0" width="329" height="47"/>
                                         <color key="backgroundColor" name="backWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="e5O-Dt-daG" secondAttribute="height" multiplier="343:44" id="amN-wo-UGj"/>
+                                            <constraint firstAttribute="width" secondItem="e5O-Dt-daG" secondAttribute="height" multiplier="343:49" id="amN-wo-UGj"/>
                                         </constraints>
                                         <color key="textColor" name="textBlack"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -58,10 +53,10 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Elw-PM-LDl">
-                                        <rect key="frame" x="0.0" y="56.333333333333314" width="329" height="42"/>
+                                        <rect key="frame" x="0.0" y="61" width="329" height="47"/>
                                         <color key="backgroundColor" name="backWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="Elw-PM-LDl" secondAttribute="height" multiplier="343:44" id="SN9-fF-U3j"/>
+                                            <constraint firstAttribute="width" secondItem="Elw-PM-LDl" secondAttribute="height" multiplier="343:49" id="SN9-fF-U3j"/>
                                         </constraints>
                                         <color key="textColor" name="textBlack"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -75,11 +70,12 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGm-4a-r5Y">
-                                <rect key="frame" x="23" y="467.66666666666669" width="329" height="42.333333333333314"/>
+                                <rect key="frame" x="23" y="477.33333333333331" width="329" height="49.999999999999943"/>
                                 <color key="backgroundColor" name="pointBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="FGm-4a-r5Y" secondAttribute="height" multiplier="343:44" id="2jz-mK-2LZ"/>
+                                    <constraint firstAttribute="width" secondItem="FGm-4a-r5Y" secondAttribute="height" multiplier="329:50" id="2jz-mK-2LZ"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="로그인"/>
@@ -93,13 +89,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아이디저장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjG-Xa-SDT">
-                                <rect key="frame" x="293" y="423.33333333333331" width="52" height="14.333333333333314"/>
+                                <rect key="frame" x="293" y="433" width="52" height="14.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" name="textBlack"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZc-hG-AWA">
-                                <rect key="frame" x="30" y="523" width="56" height="27"/>
+                                <rect key="frame" x="30" y="540.33333333333337" width="56" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="아이디 찾기">
@@ -107,7 +103,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnZ-z9-iFp">
-                                <rect key="frame" x="96" y="523" width="66" height="27"/>
+                                <rect key="frame" x="96" y="540.33333333333337" width="66" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="비밀번호 찾기">
@@ -115,7 +111,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qz8-4g-T6N">
-                                <rect key="frame" x="273" y="423" width="15" height="15"/>
+                                <rect key="frame" x="273" y="432.66666666666669" width="15" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="15" id="LJR-PO-cJI"/>
                                     <constraint firstAttribute="height" constant="15" id="cqM-d7-3SI"/>
@@ -131,7 +127,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6y-ev-HBR">
-                                <rect key="frame" x="303" y="523" width="42" height="27"/>
+                                <rect key="frame" x="303" y="540.33333333333337" width="42" height="27"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="회원가입">
@@ -142,12 +138,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="po1-4C-GBz">
-                                <rect key="frame" x="112.33333333333333" y="217.66666666666666" width="150.33333333333337" height="40.333333333333343"/>
+                                <rect key="frame" x="112" y="215" width="151" height="43"/>
                                 <attributedString key="attributedText">
                                     <fragment content="단국대">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -155,14 +151,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="학우들과">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -170,14 +166,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="스포츠">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -185,14 +181,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="매칭을">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -200,14 +196,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="즐겨보세요">
                                         <attributes>
                                             <color key="NSColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -215,15 +211,13 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DanPlay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-P4-4yW">
-                                <rect key="frame" x="62.666666666666657" y="141.66666666666666" width="249.99999999999997" height="56"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Danplay" translatesAutoresizingMaskIntoConstraints="NO" id="SKy-wq-dzP">
+                                <rect key="frame" x="87.666666666666686" y="155" width="200" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="pyV-JJ-pDZ"/>
+                                    <constraint firstAttribute="width" constant="200" id="LLX-8h-dWb"/>
+                                    <constraint firstAttribute="height" constant="40" id="m5W-I6-vba"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="50"/>
-                                <color key="textColor" red="0.33333333333333331" green="0.73333333333333328" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -233,10 +227,11 @@
                             <constraint firstItem="xkA-jo-N7R" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="23" id="B9v-Ae-Kmu"/>
                             <constraint firstItem="hnZ-z9-iFp" firstAttribute="leading" secondItem="gZc-hG-AWA" secondAttribute="trailing" constant="10" id="EWj-z9-kBc"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="v6y-ev-HBR" secondAttribute="trailing" constant="30" id="HaO-gl-2F7"/>
-                            <constraint firstItem="po1-4C-GBz" firstAttribute="top" secondItem="mAr-P4-4yW" secondAttribute="bottom" constant="20" id="Hvh-DG-vFA"/>
                             <constraint firstItem="po1-4C-GBz" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Oky-dr-hCj"/>
+                            <constraint firstItem="po1-4C-GBz" firstAttribute="top" secondItem="SKy-wq-dzP" secondAttribute="bottom" constant="20" id="Tnl-Og-VMf"/>
                             <constraint firstItem="xkA-jo-N7R" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="220" id="UZ8-rx-Tys"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xkA-jo-N7R" secondAttribute="trailing" constant="23" id="YGX-qL-cgM"/>
+                            <constraint firstItem="SKy-wq-dzP" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="YST-od-pXi"/>
                             <constraint firstItem="hnZ-z9-iFp" firstAttribute="top" secondItem="FGm-4a-r5Y" secondAttribute="bottom" constant="13" id="fmo-vz-Hyc"/>
                             <constraint firstItem="xkA-jo-N7R" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="h63-II-1KK"/>
                             <constraint firstItem="xkA-jo-N7R" firstAttribute="top" secondItem="po1-4C-GBz" secondAttribute="bottom" constant="50" id="hQw-Qs-scA"/>
@@ -246,7 +241,6 @@
                             <constraint firstItem="gZc-hG-AWA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="kPO-nh-U8T"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="UjG-Xa-SDT" secondAttribute="trailing" constant="30" id="lrL-YO-70c"/>
                             <constraint firstItem="gZc-hG-AWA" firstAttribute="top" secondItem="FGm-4a-r5Y" secondAttribute="bottom" constant="13" id="rWd-oP-dKJ"/>
-                            <constraint firstItem="mAr-P4-4yW" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="sqc-kN-f4p"/>
                             <constraint firstItem="UjG-Xa-SDT" firstAttribute="leading" secondItem="qz8-4g-T6N" secondAttribute="trailing" constant="5" id="vzU-ZR-XQF"/>
                             <constraint firstItem="v6y-ev-HBR" firstAttribute="top" secondItem="FGm-4a-r5Y" secondAttribute="bottom" constant="13" id="ygF-2N-loW"/>
                         </constraints>
@@ -264,6 +258,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Danplay" width="200" height="42.666667938232422"/>
         <image name="checkmark.square" catalog="system" width="128" height="114"/>
         <image name="square" catalog="system" width="128" height="114"/>
         <namedColor name="backWhite">
