@@ -7,10 +7,14 @@
 
 import UIKit
 
-class AuthCompleteViewController: UIViewController {
+final class AuthCompleteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    }
+    
+    @IBAction func completeBtnDidTap(_ sender: Any) {
+        
     }
 }

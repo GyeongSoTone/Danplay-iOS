@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E2C93D928648A58001A2A21 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C93D828648A58001A2A21 /* GeneralResponse.swift */; };
+		8E2C93DB28648A68001A2A21 /* NoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C93DA28648A68001A2A21 /* NoData.swift */; };
+		8E2C93DE28648C61001A2A21 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C93DD28648C61001A2A21 /* SignIn.swift */; };
+		8E63EB2F28646B9F009756F8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB2E28646B9F009756F8 /* AuthService.swift */; };
+		8E63EB3128646BAA009756F8 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3028646BAA009756F8 /* AuthRouter.swift */; };
+		8E63EB3328646BB4009756F8 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3228646BB4009756F8 /* NetworkConstants.swift */; };
+		8E63EB3528646BBC009756F8 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3428646BBC009756F8 /* BaseRouter.swift */; };
+		8E63EB3728646BCA009756F8 /* HeaderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3628646BCA009756F8 /* HeaderType.swift */; };
+		8E63EB3928646BD4009756F8 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3828646BD4009756F8 /* BaseService.swift */; };
+		8E63EB3B28646BDC009756F8 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3A28646BDC009756F8 /* NetworkResult.swift */; };
+		8E63EB3D28646BE2009756F8 /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB3C28646BE2009756F8 /* EventLogger.swift */; };
+		8E63EB4328646C61009756F8 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63EB4228646C61009756F8 /* MainTabBarViewController.swift */; };
 		8EB8FA34282CF51A00B3BCEC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA31282CF51A00B3BCEC /* Comfortaa-Light.ttf */; };
 		8EB8FA35282CF51A00B3BCEC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA32282CF51A00B3BCEC /* Comfortaa-Bold.ttf */; };
 		8EB8FA36282CF51A00B3BCEC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA33282CF51A00B3BCEC /* Comfortaa-Regular.ttf */; };
@@ -15,20 +27,35 @@
 		8EFAFCED2828C1C70090EAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCEB2828C1C70090EAB4 /* Main.storyboard */; };
 		8EFAFCEF2828C1C80090EAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */; };
 		8EFAFCF22828C1C80090EAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFCF02828C1C80090EAB4 /* LaunchScreen.storyboard */; };
-		8EFAFD2A2828F70E0090EAB4 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD292828F70E0090EAB4 /* AuthModel.swift */; };
-		8EFAFD2E2828F71C0090EAB4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD2D2828F71C0090EAB4 /* Login.storyboard */; };
+		8EFAFD2E2828F71C0090EAB4 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD2D2828F71C0090EAB4 /* SignIn.storyboard */; };
 		8EFAFD302828F7290090EAB4 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD2F2828F7290090EAB4 /* SignUp.storyboard */; };
 		8EFAFD32282916540090EAB4 /* AuthComplete.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD31282916540090EAB4 /* AuthComplete.storyboard */; };
-		8EFAFD3428291C380090EAB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3328291C380090EAB4 /* LoginViewController.swift */; };
+		8EFAFD3428291C380090EAB4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3328291C380090EAB4 /* SignInViewController.swift */; };
 		8EFAFD3628291C540090EAB4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */; };
 		8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */; };
 		8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD3928291CF70090EAB4 /* ViewController.swift */; };
 		8EFAFD45282A26980090EAB4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFAFD44282A26980090EAB4 /* Colors.xcassets */; };
 		8EFAFD47282A276E0090EAB4 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD46282A276E0090EAB4 /* UIColor+.swift */; };
 		8EFAFD49282A5EEA0090EAB4 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */; };
+		FC2D23D53B8DB68B93C88040 /* Pods_Danplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8364706FDA002ABE34C2EAB9 /* Pods_Danplay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63C902B95AA6CFE517A01D61 /* Pods-Danplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danplay.release.xcconfig"; path = "Target Support Files/Pods-Danplay/Pods-Danplay.release.xcconfig"; sourceTree = "<group>"; };
+		8364706FDA002ABE34C2EAB9 /* Pods_Danplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8D0CFF14AFDE0CEE182D16 /* Pods-Danplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danplay.debug.xcconfig"; path = "Target Support Files/Pods-Danplay/Pods-Danplay.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2C93D828648A58001A2A21 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		8E2C93DA28648A68001A2A21 /* NoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoData.swift; sourceTree = "<group>"; };
+		8E2C93DD28648C61001A2A21 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		8E63EB2E28646B9F009756F8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8E63EB3028646BAA009756F8 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		8E63EB3228646BB4009756F8 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		8E63EB3428646BBC009756F8 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		8E63EB3628646BCA009756F8 /* HeaderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderType.swift; sourceTree = "<group>"; };
+		8E63EB3828646BD4009756F8 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		8E63EB3A28646BDC009756F8 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		8E63EB3C28646BE2009756F8 /* EventLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLogger.swift; sourceTree = "<group>"; };
+		8E63EB4228646C61009756F8 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		8EB8FA31282CF51A00B3BCEC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
 		8EB8FA32282CF51A00B3BCEC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
 		8EB8FA33282CF51A00B3BCEC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
@@ -39,17 +66,16 @@
 		8EFAFCEE2828C1C80090EAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFAFCF12828C1C80090EAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFAFCF32828C1C80090EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EFAFD292828F70E0090EAB4 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
-		8EFAFD2D2828F71C0090EAB4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8EFAFD2D2828F71C0090EAB4 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		8EFAFD2F2828F7290090EAB4 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		8EFAFD31282916540090EAB4 /* AuthComplete.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthComplete.storyboard; sourceTree = "<group>"; };
-		8EFAFD3328291C380090EAB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8EFAFD3328291C380090EAB4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCompleteViewController.swift; sourceTree = "<group>"; };
 		8EFAFD3928291CF70090EAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EFAFD44282A26980090EAB4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		8EFAFD46282A276E0090EAB4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "Danplay/Resource/Asset/UIColor+.swift"; sourceTree = SOURCE_ROOT; };
-		8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "Danplay/Resource/Asset/UIViewController+.swift"; sourceTree = SOURCE_ROOT; };
+		8EFAFD46282A276E0090EAB4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "Danplay/Global/Extension/UIColor+.swift"; sourceTree = SOURCE_ROOT; };
+		8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "Danplay/Global/Extension/UIViewController+.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +83,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2D23D53B8DB68B93C88040 /* Pods_Danplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027521EEB142C9EF2404A9AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D8D0CFF14AFDE0CEE182D16 /* Pods-Danplay.debug.xcconfig */,
+				63C902B95AA6CFE517A01D61 /* Pods-Danplay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E63EB2728646B09009756F8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB2928646B1A009756F8 /* Network */,
+				8E63EB3E28646BEE009756F8 /* Domain */,
+				8E63EB2828646B15009756F8 /* Extension */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8E63EB2828646B15009756F8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAFD46282A276E0090EAB4 /* UIColor+.swift */,
+				8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8E63EB2928646B1A009756F8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB2A28646B50009756F8 /* Services */,
+				8E63EB2B28646B5A009756F8 /* Routers */,
+				8E63EB2C28646B66009756F8 /* Environment */,
+				8E63EB2D28646B6E009756F8 /* Foundation */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8E63EB2A28646B50009756F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB2E28646B9F009756F8 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8E63EB2B28646B5A009756F8 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB3028646BAA009756F8 /* AuthRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		8E63EB2C28646B66009756F8 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB3228646BB4009756F8 /* NetworkConstants.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		8E63EB2D28646B6E009756F8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB3428646BBC009756F8 /* BaseRouter.swift */,
+				8E63EB3628646BCA009756F8 /* HeaderType.swift */,
+				8E63EB3828646BD4009756F8 /* BaseService.swift */,
+				8E63EB3A28646BDC009756F8 /* NetworkResult.swift */,
+				8E63EB3C28646BE2009756F8 /* EventLogger.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		8E63EB3E28646BEE009756F8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB3F28646BFD009756F8 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8E63EB3F28646BFD009756F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C93D828648A58001A2A21 /* GeneralResponse.swift */,
+				8E2C93DA28648A68001A2A21 /* NoData.swift */,
+				8E63EB4028646C04009756F8 /* Auth */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E63EB4028646C04009756F8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C93DD28648C61001A2A21 /* SignIn.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8E63EB4128646C27009756F8 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8E63EB4228646C61009756F8 /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		8E63EB4428646C6C009756F8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		8EB8FA30282CF50C00B3BCEC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +221,8 @@
 			children = (
 				8EFAFCE42828C1C70090EAB4 /* Danplay */,
 				8EFAFCE32828C1C70090EAB4 /* Products */,
+				027521EEB142C9EF2404A9AC /* Pods */,
+				A230D9BFA59A0C4C39293047 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,20 +237,12 @@
 		8EFAFCE42828C1C70090EAB4 /* Danplay */ = {
 			isa = PBXGroup;
 			children = (
-				8EFAFD192828F4900090EAB4 /* Global */,
+				8E63EB2728646B09009756F8 /* Global */,
 				8EFAFD1A2828F4970090EAB4 /* Source */,
 				8EFAFD1B2828F4A10090EAB4 /* Resource */,
 				8EFAFCF32828C1C80090EAB4 /* Info.plist */,
 			);
 			path = Danplay;
-			sourceTree = "<group>";
-		};
-		8EFAFD192828F4900090EAB4 /* Global */ = {
-			isa = PBXGroup;
-			children = (
-				8EFAFD1C2828F4B60090EAB4 /* Extenstion */,
-			);
-			path = Global;
 			sourceTree = "<group>";
 		};
 		8EFAFD1A2828F4970090EAB4 /* Source */ = {
@@ -126,38 +263,19 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		8EFAFD1C2828F4B60090EAB4 /* Extenstion */ = {
-			isa = PBXGroup;
-			children = (
-				8EFAFD46282A276E0090EAB4 /* UIColor+.swift */,
-				8EFAFD48282A5EEA0090EAB4 /* UIViewController+.swift */,
-			);
-			path = Extenstion;
-			sourceTree = "<group>";
-		};
 		8EFAFD1D2828F4D20090EAB4 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
 				8EFAFD1F2828F4EF0090EAB4 /* Auth */,
-				8EFAFD1E2828F4E10090EAB4 /* TabBar */,
+				8E63EB4128646C27009756F8 /* MainTabBar */,
+				8E63EB4428646C6C009756F8 /* Home */,
 			);
 			path = Screen;
-			sourceTree = "<group>";
-		};
-		8EFAFD1E2828F4E10090EAB4 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				8EFAFD252828F50D0090EAB4 /* Model */,
-				8EFAFD242828F5090090EAB4 /* View */,
-				8EFAFD232828F5050090EAB4 /* Controller */,
-			);
-			path = TabBar;
 			sourceTree = "<group>";
 		};
 		8EFAFD1F2828F4EF0090EAB4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				8EFAFD222828F5010090EAB4 /* Model */,
 				8EFAFD212828F4FE0090EAB4 /* View */,
 				8EFAFD202828F4FA0090EAB4 /* Controller */,
 			);
@@ -167,7 +285,7 @@
 		8EFAFD202828F4FA0090EAB4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8EFAFD3328291C380090EAB4 /* LoginViewController.swift */,
+				8EFAFD3328291C380090EAB4 /* SignInViewController.swift */,
 				8EFAFD3528291C540090EAB4 /* SignUpViewController.swift */,
 				8EFAFD3728291C720090EAB4 /* AuthCompleteViewController.swift */,
 			);
@@ -177,40 +295,11 @@
 		8EFAFD212828F4FE0090EAB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8EFAFD2D2828F71C0090EAB4 /* Login.storyboard */,
+				8EFAFD2D2828F71C0090EAB4 /* SignIn.storyboard */,
 				8EFAFD2F2828F7290090EAB4 /* SignUp.storyboard */,
 				8EFAFD31282916540090EAB4 /* AuthComplete.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		8EFAFD222828F5010090EAB4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8EFAFD292828F70E0090EAB4 /* AuthModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		8EFAFD232828F5050090EAB4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		8EFAFD242828F5090090EAB4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		8EFAFD252828F50D0090EAB4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		8EFAFD262828F51F0090EAB4 /* Support */ = {
@@ -242,6 +331,14 @@
 			path = Asset;
 			sourceTree = "<group>";
 		};
+		A230D9BFA59A0C4C39293047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8364706FDA002ABE34C2EAB9 /* Pods_Danplay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFAFCF62828C1C80090EAB4 /* Build configuration list for PBXNativeTarget "Danplay" */;
 			buildPhases = (
+				8FB9B7DCDBCC99AF79EEFE0C /* [CP] Check Pods Manifest.lock */,
 				8EFAFCDE2828C1C70090EAB4 /* Sources */,
 				8EFAFCDF2828C1C70090EAB4 /* Frameworks */,
 				8EFAFCE02828C1C70090EAB4 /* Resources */,
+				788B66C39E6D882D4E2327F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,7 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB8FA34282CF51A00B3BCEC /* Comfortaa-Light.ttf in Resources */,
-				8EFAFD2E2828F71C0090EAB4 /* Login.storyboard in Resources */,
+				8EFAFD2E2828F71C0090EAB4 /* SignIn.storyboard in Resources */,
 				8EFAFCF22828C1C80090EAB4 /* LaunchScreen.storyboard in Resources */,
 				8EFAFCEF2828C1C80090EAB4 /* Assets.xcassets in Resources */,
 				8EFAFD32282916540090EAB4 /* AuthComplete.storyboard in Resources */,
@@ -315,19 +414,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		788B66C39E6D882D4E2327F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Danplay/Pods-Danplay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Danplay/Pods-Danplay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Danplay/Pods-Danplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB9B7DCDBCC99AF79EEFE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EFAFCDE2828C1C70090EAB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E63EB3328646BB4009756F8 /* NetworkConstants.swift in Sources */,
+				8E2C93D928648A58001A2A21 /* GeneralResponse.swift in Sources */,
 				8EFAFD3628291C540090EAB4 /* SignUpViewController.swift in Sources */,
 				8EFAFD47282A276E0090EAB4 /* UIColor+.swift in Sources */,
+				8E63EB4328646C61009756F8 /* MainTabBarViewController.swift in Sources */,
 				8EFAFD3828291C720090EAB4 /* AuthCompleteViewController.swift in Sources */,
-				8EFAFD2A2828F70E0090EAB4 /* AuthModel.swift in Sources */,
 				8EFAFCE62828C1C70090EAB4 /* AppDelegate.swift in Sources */,
+				8E2C93DE28648C61001A2A21 /* SignIn.swift in Sources */,
+				8E2C93DB28648A68001A2A21 /* NoData.swift in Sources */,
+				8E63EB3728646BCA009756F8 /* HeaderType.swift in Sources */,
+				8E63EB3B28646BDC009756F8 /* NetworkResult.swift in Sources */,
 				8EFAFD49282A5EEA0090EAB4 /* UIViewController+.swift in Sources */,
+				8E63EB3D28646BE2009756F8 /* EventLogger.swift in Sources */,
+				8E63EB3928646BD4009756F8 /* BaseService.swift in Sources */,
+				8E63EB3528646BBC009756F8 /* BaseRouter.swift in Sources */,
 				8EFAFD3A28291CF70090EAB4 /* ViewController.swift in Sources */,
-				8EFAFD3428291C380090EAB4 /* LoginViewController.swift in Sources */,
+				8E63EB2F28646B9F009756F8 /* AuthService.swift in Sources */,
+				8E63EB3128646BAA009756F8 /* AuthRouter.swift in Sources */,
+				8EFAFD3428291C380090EAB4 /* SignInViewController.swift in Sources */,
 				8EFAFCE82828C1C70090EAB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +622,7 @@
 		};
 		8EFAFCF72828C1C80090EAB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8D0CFF14AFDE0CEE182D16 /* Pods-Danplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +651,7 @@
 		};
 		8EFAFCF82828C1C80090EAB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C902B95AA6CFE517A01D61 /* Pods-Danplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

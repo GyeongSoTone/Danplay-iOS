@@ -16,11 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="7wx-H3-Bbt">
-                                <rect key="frame" x="87.666666666666686" y="376" width="200" height="60"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_logo" translatesAutoresizingMaskIntoConstraints="NO" id="7wx-H3-Bbt">
+                                <rect key="frame" x="100" y="376" width="175" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="f6w-KN-dG2"/>
-                                    <constraint firstAttribute="width" constant="200" id="lU1-Fo-csP"/>
+                                    <constraint firstAttribute="width" secondItem="7wx-H3-Bbt" secondAttribute="height" multiplier="35:12" id="9LH-47-Iaa"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -28,6 +27,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7wx-H3-Bbt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Ct-Sk-bkg"/>
+                            <constraint firstAttribute="trailing" secondItem="7wx-H3-Bbt" secondAttribute="trailing" constant="100" id="Bds-uw-EFt"/>
+                            <constraint firstItem="7wx-H3-Bbt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="100" id="S6J-ci-Bsq"/>
                             <constraint firstItem="7wx-H3-Bbt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kOC-dr-02n"/>
                         </constraints>
                     </view>
@@ -38,7 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo1" width="800" height="300"/>
+        <image name="new_logo" width="800" height="300"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
