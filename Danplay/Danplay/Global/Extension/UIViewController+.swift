@@ -25,4 +25,20 @@ extension UIViewController {
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backBtnIcon
         self.navigationItem.backButtonTitle = ""
     }
+    
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
+    func alert(title: String, message: String) {
+        let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertVC.addAction(UIAlertAction(title: "확인", style: .default, handler: nil))
+        present(alertVC, animated: true)
+    }
 }
