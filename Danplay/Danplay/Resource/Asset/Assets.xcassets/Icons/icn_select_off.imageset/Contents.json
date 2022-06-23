@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "logo_danplay.png",
+      "filename" : "icn_select_off.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "logo_danplay@2x.png",
+      "filename" : "icn_select_off@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "logo_danplay@3x.png",
+      "filename" : "icn_select_off@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
